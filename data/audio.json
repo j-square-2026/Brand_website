@@ -1,0 +1,17 @@
+{
+  "audio": [
+    {
+      "id": "REPLACE_WITH_SPOTIFY_EPISODE_ID",
+      "type": "episode",
+      "title": "Episode 1 — Leaving the placement track",
+      "description": "Why I chose the road over a job offer.",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "REPLACE_WITH_SPOTIFY_PLAYLIST_ID",
+      "type": "playlist",
+      "title": "Travel soundtrack",
+      "description": "Songs that kept me company on buses and trains."
+    }
+  ]
+}
