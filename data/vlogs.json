@@ -1,9 +1,14 @@
 {
   "vlogs": [
     {
-      "url": "https://www.instagram.com/reel/REPLACE_WITH_YOUR_REEL_ID/",
-      "title": "First day in Srinagar",
+      "url": "https://www.instagram.com/p/DWkjZ4BE2xX/",
+      "title": "Srinagar — first day",
       "date": "2026-09-10"
+    },
+    {
+      "url": "https://www.instagram.com/p/Dc-poU9TIYO/",
+      "title": "From the road",
+      "date": "2026-09-18"
     }
   ]
 }

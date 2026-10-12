@@ -1,17 +1,17 @@
 {
   "photos": [
     {
-      "src": "assets/photos/photo-1.jpg",
-      "caption": "Sunrise over Dal Lake",
-      "location": "Srinagar, Kashmir",
-      "date": "2026-08-15",
+      "src": "assets/photos/YOUR_FILENAME_1.jpg",
+      "caption": "Caption here",
+      "location": "Location here",
+      "date": "2026-10-01",
       "type": "photo"
     },
     {
-      "src": "assets/photos/meme-1.jpg",
-      "caption": "When the bus is 6 hours late",
-      "location": "Somewhere in MP",
-      "date": "2026-09-02",
+      "src": "assets/photos/YOUR_FILENAME_2.jpg",
+      "caption": "Caption here",
+      "location": "Location here",
+      "date": "2026-10-01",
       "type": "meme"
     }
   ]

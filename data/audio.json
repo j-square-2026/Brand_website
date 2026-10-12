@@ -1,17 +1,10 @@
 {
   "audio": [
     {
-      "id": "REPLACE_WITH_SPOTIFY_EPISODE_ID",
-      "type": "episode",
-      "title": "Episode 1 — Leaving the placement track",
-      "description": "Why I chose the road over a job offer.",
-      "date": "2026-09-20"
-    },
-    {
-      "id": "REPLACE_WITH_SPOTIFY_PLAYLIST_ID",
-      "type": "playlist",
-      "title": "Travel soundtrack",
-      "description": "Songs that kept me company on buses and trains."
+      "url": "https://open.spotify.com/episode/6GiZmGLfEA3TcZ34sAQTzn?si=b3baab40b93b4e61",
+      "title": "Audio1 — My audio",
+      "description": "A voice note from the road.",
+      "date": "2026-10-01"
     }
   ]
 }

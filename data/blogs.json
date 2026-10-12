@@ -1,10 +1,18 @@
 {
   "blogs": [
     {
-      "url": "https://jsquare2026.blogspot.com/2026/09/REPLACE_WITH_POST_SLUG.html",
-      "title": "A dhaba, a stranger, and a lesson",
-      "description": "Somewhere between Punjab and Rajasthan, I learned something small.",
-      "date": "2026-09-12"
+      "url": "https://jsquare2026.blogspot.com/2026/10/mera-marzzi.html",
+      "title": "Mera Marzzi",
+      "description": "I am scared of responsibility.",
+      "image": "https://blogger.googleusercontent.com/...",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://jsquare2026.blogspot.com/2026/10/something-is-wrong.html",
+      "title": "Something is Wrong",
+      "description": "I have everything. But something feels wrong.",
+      "image": "https://blogger.googleusercontent.com/...",
+      "date": "2026-10-05"
     }
   ]
 }
