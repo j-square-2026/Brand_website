@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listen | Jenit</title>
-  <meta name="description" content="Audio stories, voice notes, and podcasts on Spotify.">
+  <title>Listen | J²</title>
+  <meta name="description" content="Monologs, podcasts, stories, songs, and music — streaming on Spotify.">
   <link rel="icon" href="assets/logo.jpeg" type="image/jpeg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -17,16 +17,37 @@
     <div class="container">
       <p class="eyebrow">Voice &amp; Sound</p>
       <h1>Listen</h1>
-      <p class="lead">Audio stories, voice notes, and podcast episodes — streaming on Spotify.</p>
+      <p class="lead">Monologs, podcasts, stories, songs, and music — all in one place.</p>
     </div>
   </header>
 
   <main>
     <section class="section container">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-filter="all">
+          <i class="fa-solid fa-layer-group"></i><span>All</span>
+        </button>
+        <button class="tab-btn" data-filter="monolog">
+          <i class="fa-solid fa-microphone-lines"></i><span>Monolog</span>
+        </button>
+        <button class="tab-btn" data-filter="podcast">
+          <i class="fa-solid fa-podcast"></i><span>Podcast</span>
+        </button>
+        <button class="tab-btn" data-filter="story">
+          <i class="fa-solid fa-book-open"></i><span>Story</span>
+        </button>
+        <button class="tab-btn" data-filter="song">
+          <i class="fa-solid fa-music"></i><span>Song</span>
+        </button>
+        <button class="tab-btn" data-filter="music">
+          <i class="fa-solid fa-headphones"></i><span>Music</span>
+        </button>
+      </div>
+
       <div id="audio-grid" class="audio-grid"></div>
       <p id="audio-empty" class="empty-state" hidden>
         <i class="fa-solid fa-headphones"></i>
-        <span>No audio yet. Check back soon.</span>
+        <span>Nothing here yet. Check back soon.</span>
       </p>
     </section>
   </main>

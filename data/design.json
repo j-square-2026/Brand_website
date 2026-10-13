@@ -1,0 +1,18 @@
+{
+  "photos": [
+    {
+      "src": "assets/photos/photo-1.jpg",
+      "caption": "Sunrise over Dal Lake",
+      "location": "Srinagar, Kashmir",
+      "date": "2026-08-15",
+      "type": "photo"
+    },
+    {
+      "src": "assets/designs/poster-1.jpg",
+      "caption": "Travel poster series",
+      "location": "",
+      "date": "2026-10-01",
+      "type": "design"
+    }
+  ]
+}

@@ -1,10 +1,39 @@
 {
   "audio": [
     {
-      "url": "https://open.spotify.com/episode/6GiZmGLfEA3TcZ34sAQTzn?si=b3baab40b93b4e61",
+      "url": "https://open.spotify.com/episode/6GiZmGLfEA3TcZ34sAQTzn",
+      "type": "monolog",
       "title": "Audio1 — My audio",
       "description": "A voice note from the road.",
       "date": "2026-10-01"
+    },
+    {
+      "url": "https://open.spotify.com/episode/REPLACE_WITH_PODCAST_EPISODE_ID",
+      "type": "podcast",
+      "title": "Podcast episode title",
+      "description": "A conversation about the journey.",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://open.spotify.com/episode/REPLACE_WITH_STORY_EPISODE_ID",
+      "type": "story",
+      "title": "Story title",
+      "description": "A short story from the road.",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://open.spotify.com/track/REPLACE_WITH_SONG_TRACK_ID",
+      "type": "song",
+      "title": "Song title",
+      "description": "A song I wrote or like.",
+      "date": "2026-10-10"
+    },
+    {
+      "url": "https://open.spotify.com/playlist/REPLACE_WITH_MUSIC_PLAYLIST_ID",
+      "type": "music",
+      "title": "Travel soundtrack",
+      "description": "Songs that kept me company on buses.",
+      "date": "2026-10-12"
     }
   ]
 }

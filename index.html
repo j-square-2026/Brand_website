@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jenit | Traveler, Writer, Storyteller</title>
-  <meta name="description" content="IIT Delhi Grad'26 turned full-time backpacker. Traveler, writer, storyteller, and content creator.">
+  <title>J² | Writer. Traveler. Thinker.</title>
+  <meta name="description" content="Writer. Traveler. Thinker. Figuring it out in public.">
 
-  <meta property="og:title" content="Jenit | Traveler, Writer, Storyteller">
-  <meta property="og:description" content="IIT Delhi Grad'26 turned full-time backpacker.">
+  <meta property="og:title" content="J² | Writer. Traveler. Thinker.">
+  <meta property="og:description" content="Writer. Traveler. Thinker. Figuring it out in public.">
   <meta property="og:image" content="https://j-square-2026.github.io/Brand_website/assets/photo.jpeg">
   <meta property="og:url" content="https://j-square-2026.github.io/Brand_website/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="J² | Writer. Traveler. Thinker.">
+  <meta name="twitter:description" content="Writer. Traveler. Thinker. Figuring it out in public.">
   <meta name="twitter:image" content="https://j-square-2026.github.io/Brand_website/assets/photo.jpeg">
 
   <link rel="icon" href="assets/logo.jpeg" type="image/jpeg">
@@ -26,15 +28,15 @@
     <div class="container hero-grid">
       <div class="hero-text">
         <img src="assets/logo.jpeg" alt="J² logo" class="logo">
-        <p class="eyebrow">Thinker • Traveller • Writer • Storyteller • Content Creator</p>
+        <p class="eyebrow">Writer • Traveler • Thinker</p>
         <h1>Hi, I'm J<sup>2</sup>.</h1>
         <p class="lead">
-          IIT Delhi Grad'26 turned full-time backpacker. Travelling the world,
-          collecting stories, experiences, and documenting them in my own way.
+          I packed one bag, sold the rest, and left. Now I travel through India,
+          write everything down, and figure it out in public.
         </p>
       </div>
       <div class="hero-image">
-        <img src="assets/photo.jpeg" alt="Jenit">
+        <img src="assets/photo.jpeg" alt="J²">
       </div>
     </div>
   </header>
@@ -43,10 +45,17 @@
     <section class="section container">
       <h2>About</h2>
       <p>
-        I'm a solo backpacker, writer, and storyteller. I've traveled from Kashmir to Kanyakumari,
-        covered 20+ states and 50+ cities on a minimal budget, lived in hostels, eaten at dhabas,
-        and met strangers from different countries. I document the journey through writing, theatre,
-        communication, editing, and design.
+        I'm a writer, a solo traveler, and a thinker. I didn't go straight to a job
+        after graduating. Instead, I packed one bag, sold the rest, and left.
+        I've spent months on the road — moving through 20+ Indian states, sleeping
+        in hostels and homestays, eating at dhabas, talking to strangers, and writing
+        everything down.
+      </p>
+      <p>
+        I write about the road. About loneliness and solitude. About freedom and its
+        costs. About ambition and its emptiness. About finding yourself when the world
+        you were handed does not fit. My writing is honest — it doesn't pretend
+        everything is fine, and it doesn't pretend the road is always beautiful.
       </p>
     </section>
 
@@ -63,13 +72,12 @@
     <section class="section container">
       <h2>What I do</h2>
       <div class="tags">
-        <span>Thinking</span>
         <span>Writing</span>
+        <span>Traveling</span>
         <span>Storytelling</span>
-        <span>Theatre</span>
-        <span>Communication</span>
-        <span>Editing</span>
+        <span>Thinking</span>
         <span>Designing</span>
+        <span>Performing</span>
       </div>
     </section>
 
@@ -80,7 +88,7 @@
         <a href="gallery.html" class="explore-card">
           <i class="fa-solid fa-camera"></i>
           <h3>Gallery</h3>
-          <p>Camera shots and memes from 20+ states.</p>
+          <p>Photos, memes, and designs from the road.</p>
         </a>
         <a href="watch.html" class="explore-card">
           <i class="fa-solid fa-play"></i>
@@ -90,7 +98,7 @@
         <a href="listen.html" class="explore-card">
           <i class="fa-brands fa-spotify"></i>
           <h3>Listen</h3>
-          <p>Audio stories and voice notes on Spotify.</p>
+          <p>Monologs, podcasts, stories, songs, and music.</p>
         </a>
         <a href="read.html" class="explore-card">
           <span data-icon="substack"></span>
@@ -107,15 +115,39 @@
         If you have a story worth telling or a project that fits the journey, let's talk.
       </p>
       <p>
-        <a class="cta-link" href="mailto:jsquare.since2026@gmail.com">
-          <i class="fa-solid fa-envelope"></i> jsquare.since2026@gmail.com
+        <a class="cta-link" href="mailto:jsquare.since2026@iitdalumni.com">
+          <i class="fa-solid fa-envelope"></i> jsquare.since2026@iitdalumni.com
         </a>
       </p>
+    </section>
+
+    <section class="section container">
+      <h2>Say hello</h2>
+      <p>A small corner for you and me. Leave a note, drop a reaction, share the page.</p>
+
+      <div id="visit-counter" class="visit-counter"></div>
+
+      <h3 class="interact-heading">React</h3>
+      <div id="reactions" class="reactions"></div>
+
+      <h3 class="interact-heading">Your notes</h3>
+      <p class="interact-hint">Notes stay on this device only. A private journal between you and this page.</p>
+      <form id="notebook-form" class="notebook-form">
+        <input type="text" placeholder="Write something..." maxlength="200" aria-label="Note text" />
+        <button type="submit">
+          <i class="fa-solid fa-plus"></i> Add
+        </button>
+      </form>
+      <div id="notebook-list" class="notebook-list"></div>
+
+      <h3 class="interact-heading">Share this page</h3>
+      <div id="share-buttons" class="share-buttons"></div>
     </section>
   </main>
 
   <div data-component="footer"></div>
 
   <script src="shared.js"></script>
+  <script src="interact.js"></script>
 </body>
 </html>

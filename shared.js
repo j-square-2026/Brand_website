@@ -1,10 +1,7 @@
 (function () {
   'use strict';
 
-  // ============================================
-  // EDIT EVERYTHING IN THIS ONE PLACE
-  // ============================================
-  const EMAIL = 'jsquare.since2026@gmail.com';
+  const EMAIL = 'jsquare.since2026@iitdalumni.com';
 
   const NAV_ITEMS = [
     { href: 'index.html',   label: 'Home'    },
@@ -14,7 +11,6 @@
     { href: 'read.html',    label: 'Read'    }
   ];
 
-  // Official Substack logo as inline SVG
   const SUBSTACK_ICON =
     '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="icon-substack">' +
       '<path fill="currentColor" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>' +
@@ -33,9 +29,6 @@
     { href: 'mailto:' + EMAIL,                                                     label: 'Email',     icon: '<i class="fa-solid fa-envelope"></i>' }
   ];
 
-  // ============================================
-  // RENDER NAV
-  // ============================================
   function renderNav() {
     const mount = document.querySelector('[data-component="nav"]');
     if (!mount) return;
@@ -55,9 +48,6 @@
       '</div>';
   }
 
-  // ============================================
-  // RENDER FOOTER
-  // ============================================
   function renderFooter() {
     const mount = document.querySelector('[data-component="footer"]');
     if (!mount) return;
@@ -74,22 +64,16 @@
     mount.innerHTML =
       '<div class="container">' +
         '<div class="footer-socials">' + icons + '</div>' +
-        '<p>© 2026 Jenit. All rights reserved.</p>' +
+        '<p>© 2026 J². All rights reserved.</p>' +
       '</div>';
   }
 
-  // ============================================
-  // REPLACE ANY [data-icon="substack"] WITH SVG
-  // ============================================
   function upgradeSubstackIcons() {
     document.querySelectorAll('[data-icon="substack"]').forEach(function (el) {
       el.outerHTML = SUBSTACK_ICON;
     });
   }
 
-  // ============================================
-  // INIT
-  // ============================================
   function init() {
     renderNav();
     renderFooter();
